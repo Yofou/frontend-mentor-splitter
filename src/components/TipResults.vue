@@ -1,6 +1,6 @@
 <template>
   <div
-    class="px-6 pt-[2.31rem] pb-6 md:px-10 md:pb-10 md:py-14 bg-[#00474B] rounded-[0.9375rem] flex flex-col justify-between"
+    class="px-6 pt-[2.31rem] pb-6 md:p-10 bg-[#00474B] rounded-[0.9375rem] flex flex-col justify-between"
   >
     <div>
       <TipAmount :amount="props.amount">Tip Amount</TipAmount>

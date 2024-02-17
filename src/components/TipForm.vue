@@ -8,7 +8,7 @@
       </template>
     </Input>
 
-    <div class="mt-8 md:mt-12 flex flex-col gap-4">
+    <div class="mt-8 md:mt-10 flex flex-col gap-4">
       <p class="text-[1rem] font-bold font-spaceMono text-[#5E7A7D]">Select Tip %</p>
 
       <RadioGroup v-model="tipPerct" class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-[.88rem]" :disabled="isDoneByCustom">
