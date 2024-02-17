@@ -1,7 +1,7 @@
 <template>
   <main class="w-full min-h-screen grid grid-rows-[max-content,1fr] md:grid-rows-[max-content,max-content] items-end justify-items-center md:items-start pt-[3.12rem] md:pt-[10.19rem] md:pb-12 bg-[#C5E4E7]">
     <SplitterIcon />
-    <TipCard class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mt-[2.55rem] md:mt-[5.49rem]">
+    <TipCard class="grid grid-cols-1 md:grid-cols-[1fr,minmax(0,25.8125rem)] gap-8 md:gap-12 mt-[2.55rem] md:mt-[5.49rem]">
       <TipForm
         v-model:bill="bill"
         v-model:numberOfPeople="numberOfPeople"
