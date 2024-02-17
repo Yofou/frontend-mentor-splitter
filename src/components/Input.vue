@@ -9,9 +9,9 @@
       </div>
       <input
         type="text"
-        class="bg-[#F3F9FA] rounded-[0.3125rem] w-full px-4 py-[0.38rem] text-right text-[1.5rem] font-bold font-spaceMono text-[#00474B] focus:outline-2 outline-[#26C2AE]"
+        class="bg-[#F3F9FA] rounded-[0.3125rem] w-full px-4 py-[0.38rem] text-right text-[1.5rem] font-bold font-spaceMono text-[#00474B] focus:outline-2 outline-[#26C2AE] placeholder:text-[#00474B]/35"
         ref="el"
-        :class="{ 'pl-[3rem]': $slots.icon }"
+        :class="{ 'pl-[3rem]': $slots.icon, 'placeholder:text-[#547878] px-[.88rem]': isCustom }"
         :placeholder="placeholder"
       />
     </div>
@@ -29,6 +29,7 @@ const props = defineProps<{
   min?: number;
   max?: number;
   placeholder?: string;
+  isCustom?: boolean;
 }>();
 
 const emits = defineEmits<{

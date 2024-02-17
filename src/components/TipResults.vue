@@ -8,7 +8,7 @@
     </div>
 
     <button
-      class="uppercase rounded-[.3125rem] mt-8 md:mt-0 bg-[#26C2AE] hover:bg-[#9FE8DF] py-[.5rem] font-spaceMono text-[1.25rem] text-[#00474B] font-bold transition-colors disabled:opacity-50"
+      class="uppercase rounded-[.3125rem] mt-8 md:mt-0 bg-[#26C2AE] hover:bg-[#9FE8DF] py-[.5rem] font-spaceMono text-[1.25rem] text-[#00474B] font-bold transition-colors disabled:bg-[#0D686D] disabled:text-[#00474B]/35"
       @click="onClick"
       :disabled="!canReset"
     >

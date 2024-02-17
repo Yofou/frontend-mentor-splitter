@@ -17,7 +17,7 @@
         <RadioItem :value=".15" @click="onTipSelect">15%</RadioItem>
         <RadioItem :value=".25" @click="onTipSelect">25%</RadioItem>
         <RadioItem :value=".5" @click="onTipSelect">50%</RadioItem>
-        <Input v-model="customVModel" placeholder="Custom" :min="0" />
+        <Input v-model="customVModel" placeholder="Custom" :min="0" isCustom />
       </RadioGroup>
     </div>
 
