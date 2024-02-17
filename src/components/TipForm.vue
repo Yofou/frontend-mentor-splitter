@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent class="md:pt-[.81rem]">
+  <form @submit.prevent class="md:pt-[.81rem] md:pl-4">
     <Input v-model="bill" placeholder="0">
       Bill
       
