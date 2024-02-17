@@ -3,10 +3,10 @@
     <span v-if="$slots.default" class="font-spaceMono text-[1rem] font-bold text-[#5E7A7D]">
       <slot />
     </span>
-    <div class="relative">
-      <div class="absolute top-1/2 -translate-y-1/2 left-[1.2rem]">
+    <span class="relative">
+      <span class="absolute top-1/2 -translate-y-1/2 left-[1.2rem]">
         <slot name="icon" />
-      </div>
+      </span>
       <input
         type="text"
         class="bg-[#F3F9FA] rounded-[0.3125rem] w-full px-4 py-[0.38rem] text-right text-[1.5rem] font-bold font-spaceMono text-[#00474B] focus:outline-2 outline-[#26C2AE] placeholder:text-[#00474B]/35"
@@ -14,7 +14,7 @@
         :class="{ 'pl-[3rem]': $slots.icon, 'placeholder:text-[#547878] px-[.88rem]': isCustom }"
         :placeholder="placeholder"
       />
-    </div>
+    </span>
   </label>
 </template>
 
