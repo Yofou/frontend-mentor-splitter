@@ -11,7 +11,7 @@
     <div class="mt-8 md:mt-10 flex flex-col gap-4">
       <p class="text-[1rem] font-bold font-spaceMono text-[#5E7A7D]">Select Tip %</p>
 
-      <RadioGroup v-model="tipPerct" class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-[.88rem]" :disabled="isDoneByCustom">
+      <RadioGroup v-model="tipPerct" class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-x-[.88rem] md:gap-y-4" :disabled="isDoneByCustom">
         <RadioItem :value=".05" @click="onTipSelect">5%</RadioItem>
         <RadioItem :value=".1" @click="onTipSelect">10%</RadioItem>
         <RadioItem :value=".15" @click="onTipSelect">15%</RadioItem>
